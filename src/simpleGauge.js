@@ -270,7 +270,7 @@
 			hi : 100
 		} ],
 		animate : true,
-		animDuration : 10000
+		animDuration : 1000
 	};
 
 })(jQuery);
