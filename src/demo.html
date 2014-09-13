@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="simpleGauge.js"></script>
+<style>
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 99vh;
+	width: 99vw;
+}
+
+#canvasPH {
+	width: 100%;
+	height: 100%;
+}
+</style>
+</head>
+<body>
+	<div id='canvasPH'></div>
+
+	<script defer>
+		var gauge = $('#canvasPH').simpleGauge({
+			desc : "%",
+			animDuration: 500
+		});
+
+		(function randomLoop() {
+			setTimeout(function() {
+				gauge.data('simpleGauge').update(Math.floor(Math.random() * (100 + 1)));
+				randomLoop();
+			}, 500);
+		})();
+	</script>
+</body>
+</html>
