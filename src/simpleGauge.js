@@ -1,8 +1,16 @@
+/*!
+ * simpleGauge.js
+ * Version: 0.8.0
+ *
+ * Copyright 2014 Rajorshi Kar
+ * Released under the Apache 2 license
+ * https://github.com/darwyn00/simplegauge/blob/master/LICENSE
+ */
 (function($) {
 
 	var SimpleGauge = function(options, elms) {
 		// Member Variables
-		var opts, colorMap, container, canvas, ctx, x, y, radius, desc, val, valuePct, targetValue, prevTargetValue, min, max, currentAnimStartTime, me = this
+		var opts, colorMap, container, canvas, ctx, x, y, radius, desc, val, valuePct, targetValue, min, max, currentAnimStartTime, me = this
 
 		// Constructor
 
