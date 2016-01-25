@@ -1,10 +1,10 @@
 simplegauge
 ===========
 
-A simple gauge implemented with JavaScript and the HTML5 Canvas element.
+A simple responsive gauge component using a HTML5 Canvas element.
 
 
 Demo
 ====
-https://cdn.rawgit.com/darwyn00/simplegauge/master/demo/demo1.html
+https://rawgit.com/darwyn00/simplegauge/master/demo/demo1.html
 
