@@ -1,10 +1,8 @@
 simplegauge
 ===========
 
-A simple responsive gauge component using a HTML5 Canvas element.
+A simple responsive arc gauge implemented using a HTML5 Canvas element.
 
-
-Demo
-====
-https://rawgit.com/darwyn00/simplegauge/master/demo/demo1.html
+[Demo](http://darwyn00.github.io/simplegauge/index.html)
+======
 

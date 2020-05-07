@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<script src="simple-gauge.js"></script>
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+			height: 99vh;
+			width: 99vw;
+		}
+
+		#container {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<div id='container'></div>
+
+	<script defer>
+		var gauge = new SimpleGauge({
+			containerId: "container",
+			desc: "%",
+			animDuration: 400,
+			//animate : false,
+			val: 100,
+			continuousColor: true
+		});
+
+		setInterval(function () {
+			gauge.update(Math.floor(Math.random() * (100 + 1)));
+		}, 500);
+	</script>
+</body>
+
+</html>
